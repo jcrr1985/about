@@ -705,32 +705,67 @@ body {
 .triAcc {
     width: 200px;
     height: 250px;
-    background-color: rgb(90, 183,232);
+    
+    background: linear-gradient(rgb(90, 183,232), rgb(120, 143,200));
     clip-path: polygon(100% 0, 0 100%, 100% 50%);
     position: absolute;
     top: 0;
     left: 0;
+    margin-top: 33px;
+        margin-left: -25px
 }
 .triLaw {
     width: 200px;
     height: 250px;
-    background-color: rgb(124, 108,170);
+    background: linear-gradient(rgb(124, 108,170), rgb(100, 148,150));
+);
     clip-path: polygon(0% 0, 0 66%, 100% 100%);
     position: absolute;
     left: 200px;
+    margin-top: 33px;
+        margin-left: -25px
 }
 .triCon {
     width: 400px;
     height: 100px;
-    background-color: rgb(71, 37,75);
+    background: linear-gradient(rgb(71, 37,75), rgb(71, 67,85));
     clip-path: polygon(40% 0, 0 100%, 100% 100%);
     position: absolute;
     top: 150px;
     left: 0px;
+    margin-top: 33px;
+        margin-left: -25px
 }
 
 .triangle:hover {
     transform: scale(1.4);
     transition: all .5s ease-out;
     z-index: 9999;
+}
+
+.triAFadeIn{
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    animation-delay: 7s;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-fill-mode : forwards;
+}
+
+.triBFadeIn{
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    animation-direction: normal;
+    animation-delay: 8s;
+    animation-iteration-count: 1;
+    animation-fill-mode : forwards;
+}
+
+.triCFadeIn{
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    animation-delay: 9s;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-fill-mode : forwards;
 }
