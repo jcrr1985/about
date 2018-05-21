@@ -718,7 +718,7 @@ body {
     width: 200px;
     height: 250px;
     background: linear-gradient(rgb(124, 108,170), rgb(100, 148,150));
-);
+
     clip-path: polygon(0% 0, 0 66%, 100% 100%);
     position: absolute;
     left: 200px;
@@ -768,4 +768,21 @@ body {
     animation-direction: normal;
     animation-iteration-count: 1;
     animation-fill-mode : forwards;
+}
+
+.crece{
+    animation: hexBig 3s forwards;
+}
+
+@keyframes hexBig{
+    from{
+            width: 110px;
+    height: 63.95349px;
+    }
+
+    to{
+          width: 1110px;
+    height: 1223px;
+    }
+
 }
