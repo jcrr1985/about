@@ -2,12 +2,14 @@ $(document).ready(function(){
 	$("div:last").css("display", "none");
 		$('.tlt').textillate({
 		in: { effect: 'rollIn', delay:20},
-		out: { effect:'rollIn'},
+		out: { effect:'rollOut'},
 		loop: true
 	});	
 });
 
-$('.hexagono1').click(function(){
-  $(this).addClass('HexBig')
+/*$('.triCon').hover(function(){
+  $(this).addClass('magictime puffin');
 });	
 
+
+*/

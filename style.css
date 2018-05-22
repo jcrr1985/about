@@ -786,3 +786,8 @@ body {
     }
 
 }
+
+.numStyled{
+    color:blue; 
+    font-size: 35px
+}
