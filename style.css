@@ -352,6 +352,7 @@ body {
     transform: scale(1.4);
     transition: all .5s ease-out;
     z-index: 9999;
+    cursor:pointer;
 }
 
 .hexagono::after {
